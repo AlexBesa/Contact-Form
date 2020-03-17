@@ -1,0 +1,107 @@
+body {
+    margin: auto 0;
+}
+
+h1 {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 5% auto;
+}
+#confirmationBanner {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px; 
+    background-color: rgb(98, 236, 225, 0.3);
+    margin: auto;
+    width: 93%;
+    display: none;
+    
+}
+.check {
+    padding: 2px;
+    height: auto;
+}
+
+.xclass {
+    font-size: 20px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0px 10px;
+    margin: 5% auto;
+    width: 90%;
+    border: 2px solid #e7e7e7;
+    box-shadow: 0 4px 8px 0 rgba(231, 35, 9, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.inputsForm {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 15px;
+}
+
+.image {
+    display: flex;
+    margin: auto;
+    padding: 15px;
+}
+
+
+.nameInput {
+    padding-top: 1px;
+    outline: 0.5px solid blue;
+    color: black;
+
+
+}
+.genderLabel {
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+}
+
+body > div > form > div.inputsForm > div > label:nth-child(3) {
+    padding-left: 35px;
+}
+body > div > form > div.inputsForm > div > label:nth-child(5) {
+    padding-left: 35px;
+}
+
+.textarea {
+    outline: 0.5px solid blue;
+    color: black;
+
+}
+
+.button {
+    background-color: rgb(21, 21, 179);
+    color: white;
+    border: chartreuse;
+    padding: 5px 2px;
+    text-decoration: none;
+    font-size: 15px;  
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 70%;
+
+}
